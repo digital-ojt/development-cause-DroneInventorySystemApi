@@ -1,0 +1,9 @@
+### 全件取得
+GET http://localhost:8080/stock-info
+
+### ID指定取得 (ID: 3)
+GET http://localhost:8080/stock-info/3
+
+### 名前指定取得 (name: "エコスライス")
+GET http://localhost:8080/stock-info/name/エコスライス
+
